@@ -31,9 +31,13 @@ dictionary strings requiring custom parsing.
 3. Place the downloaded file inside the `data/` folder of this project
 
 **After Downloading, Run:**  
-Open `utils/data_preprocessing.Rmd` in RStudio and run all chunks (`Ctrl+Alt+R`).
+Open `scripts/01_data_preparation_and_eda.Rmd` in RStudio and run all chunks (`Ctrl+Alt+R`).
 This will clean the raw data and generate `data/movies_final.csv`
 which is required to run the app and all other scripts.
 
 **Note:** This dataset is publicly available on Kaggle and is NOT included
 in this repository due to its large file size (~34 MB).
+
+## Dataset Structure Screenshot
+
+![Dataset Structure](../results/figures/dataset_screenshot.png)
