@@ -8,12 +8,6 @@ A content-based hybrid movie recommender built in R with a Shiny web interface. 
 
 ---
 
-## 🖥️ Demo
-
-> Search a movie → get instant recommendations → rate films → get personalised picks
-
----
-
 ## ✨ Features
 
 - 🔍 Instant fuzzy search across 3,000+ movies
