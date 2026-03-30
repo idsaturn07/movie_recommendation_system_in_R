@@ -25,7 +25,7 @@ if (!"vote_average" %in% colnames(movies)) movies$vote_average <- 0
 if (!"vote_count"   %in% colnames(movies)) movies$vote_count   <- 0
 if (!"overview"     %in% colnames(movies)) movies$overview     <- ""
 
-TMDB_KEY <- "b41fdb9ead1c8353d106a7362fc586c1"
+TMDB_KEY <- "YOUR_TMDB_API_KEY_HERE"
 
 # TMDB helpers
 tmdb_search <- function(title) {
