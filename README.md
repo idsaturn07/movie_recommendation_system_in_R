@@ -1,4 +1,16 @@
-# CineMatch: Movie Recommendation System
+# Project Title- CineMatch: Movie Recommendation System
+
+**Team:** Team 7
+
+**GitHub Repository:** [movie_recommendation_system_Team7](https://github.com/idsaturn07/movie_recommendation_system_Team7)
+
+---
+
+## Submission Information
+
+- All project files are available at: https://github.com/idsaturn07/movie_recommendation_system_Team7
+
+---
 
 ## Team Members
 
@@ -52,7 +64,7 @@ With over 50,000 movies available across streaming platforms, users struggle to 
 | vote_count | Integer | Total number of user votes |
 | original_language | String | Original language of the movie |
 
-> **Note:** This dataset is publicly available on Kaggle and is NOT included in this repository due to its large file size. See `data/dataset_description.md` for download instructions.
+> **Note:** This dataset is publicly available on Kaggle and is NOT included in this repository due to its large file size (~34 MB). See `data/dataset_description.md` for download instructions.
 
 ---
 
@@ -161,7 +173,7 @@ The model achieves **90.8% Genre Precision@10**, meaning 9 out of 10 recommendat
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/your-username/movie_recommendation_system_Team7.git
+git clone https://github.com/idsaturn07/movie_recommendation_system_Team7.git
 cd movie_recommendation_system_Team7
 ```
 
@@ -195,23 +207,23 @@ shiny::runApp('app')
 ```
 movie_recommendation_system_Team7/
 ├── app/
-│   ├── app.R                          # Shiny app server and UI
+│   ├── app.R                              # Shiny app server and UI
 │   └── www/
-│       └── app.js                     # Frontend JavaScript
+│       └── app.js                         # Frontend JavaScript
 ├── data/
-│   ├── movies_metadata.csv            # Raw dataset (not in GitHub)
-│   ├── movies_final.csv               # Cleaned dataset (not in GitHub)
-│   └── dataset_description.md        # Dataset documentation
+│   ├── movies_metadata.csv                # Raw dataset (not in GitHub)
+│   ├── movies_final.csv                   # Cleaned dataset (not in GitHub)
+│   └── dataset_description.md            # Dataset documentation
 ├── results/
-│   ├── figures/                       # All generated plots
+│   ├── figures/                           # All generated plots
 │   └── tables/
-│       └── model_performance.csv      # Evaluation metrics
+│       └── model_performance.csv          # Evaluation metrics
 ├── scripts/
 │   ├── 01_data_preparation_and_eda.Rmd   # Preprocessing and EDA
 │   ├── 02_modeling.R                      # Model building
 │   └── 03_evaluation.R                    # Model evaluation
-├── requirements.R                     # Package installer
-└── README.md                          # Project documentation
+├── requirements.R                         # Package installer
+└── README.md                              # Project documentation
 ```
 
 ---
